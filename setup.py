@@ -18,7 +18,7 @@ def get_version():
     return VERSION_RE.search(init).group(1)
 
 setuptools.setup(
-    name='CityLearn',
+    name='citylearn',
     version=get_version(),
     author='Jose Ramon Vazquez-Canteli, Kingsley Nweye, Zoltan Nagy',
     author_email='nweye@utexas.edu',
